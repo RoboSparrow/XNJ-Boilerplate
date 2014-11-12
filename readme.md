@@ -10,8 +10,7 @@ Node testing using Jasmine's [node.js](http://jasmine.github.io/2.0/node.html)
 Jasmine >= 2.0
 xAPIWrapper namespaces into the window object:
 
- * `jsdom` [module](https://github.com/tmpvar/jsdom)
- * [howto](https://github.com/tmpvar/jsdom#creating-a-browser-like-window-object)
+ * `jsdom` [module](https://github.com/tmpvar/jsdom), @see [howto](https://github.com/tmpvar/jsdom#creating-a-browser-like-window-object)
 
 
 ```
