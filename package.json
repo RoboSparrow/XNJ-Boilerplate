@@ -1,0 +1,9 @@
+{
+  "name": "XNJ-Boilerplate",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "jsdom": "< 4.0.0",
+    "jasmine": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "XNJ-Boilerplate",
+    "version": "0.0.1",
+    "description": "xAPIWrapper + Node + Jasmine boilerplate",
+    "dependencies": {
+        "xAPIwrapper": "https://github.com/adlnet/xAPIWrapper.git"
+    }
+}

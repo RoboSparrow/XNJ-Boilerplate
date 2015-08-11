@@ -1,2 +1,4 @@
-xAPIWrapper/*
+bower_components/*
+node_modules/*
 spec/support/*
+

@@ -22,7 +22,7 @@ global.window = document.parentWindow;
  */
 var vm = require('vm');
 var fs = require('fs');
-vm.runInThisContext(fs.readFileSync('xAPIWrapper/xapiwrapper.min.js'));
+vm.runInThisContext(fs.readFileSync('bower_components/xAPIwrapper/dist/xapiwrapper.min.js'));
 global.ADL = window.ADL;
 
 
@@ -43,5 +43,5 @@ describe('ADL.XAPIWrapper', function() {
     it('ADL.XAPIWrapper.base should be a uri (/http/).', function() {
         expect(ADL.XAPIWrapper.base).toMatch(/http/);
     });
-    
+
 });
