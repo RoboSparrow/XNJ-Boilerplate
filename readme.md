@@ -15,9 +15,16 @@ Problem: xAPIWrapper.js namespaces into the window object:
 
 Note: Jsdom needs to be <4.0 (dropped node.js support in favour of io.js in later versions)
 
+See `/spec/helpers/headers.js` for implementation. Jasmine prepends this file on each spec file.
+
+Install
+-------
+
 ```!bash
 cd ~/project_root
 bower install
 npm install #fellow linux users may need to use sudo
 node_modules/.bin/jasmine
 ```
+
+* rename and move `/template.jasmine.json` to `/spec/support/jasmine.json`
