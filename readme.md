@@ -21,11 +21,18 @@ Install
 -------
 
 ```!bash
-cd ~/project_root
+cd ~/<project_root>
 bower install
 npm install #fellow linux users may need to use sudo
-node_modules/.bin/jasmine
 ```
 
 * rename and move `/template.jasmine.json` to `/spec/support/jasmine.json`
 * place your spec and helper files in `spec` folder. If neccessary amend `jasmine.json`
+
+Run
+---
+
+```!bash
+cd ~/<project_root>
+node_modules/.bin/jasmine
+```
