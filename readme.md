@@ -8,16 +8,16 @@ Node testing using Jasmine's [node.js](http://jasmine.github.io/2.0/node.html)
 ## Requirements
 
 Jasmine >= 2.0
-xAPIWrapper namespaces into the window object:
 
- * `jsdom` [module](https://github.com/tmpvar/jsdom), @see [howto](https://github.com/tmpvar/jsdom#creating-a-browser-like-window-object)
+Problem: xAPIWrapper.js namespaces into the window object:
 
+ *  [jsdom module](https://github.com/tmpvar/jsdom), @see [howto](https://github.com/tmpvar/jsdom#creating-a-browser-like-window-object)
 
-```
-$ npm install -g jasmine
-$ cd ~/project_root
-$ npm install jsdom #note: install -g hangs on *NIX due to some weird perm issues
-$ git clone https://github.com/adlnet/xAPIWrapper.git
-$ jasmine init
-$ jasmine
+Note: Jsdom needs to be <4.0 (dropped node.js support in favour of io.js in later versions)
+
+```!bash
+cd ~/project_root
+bower install
+npm install #fellow linux users may need to use sudo
+node_modules/.bin/jasmine
 ```
