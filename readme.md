@@ -28,3 +28,4 @@ node_modules/.bin/jasmine
 ```
 
 * rename and move `/template.jasmine.json` to `/spec/support/jasmine.json`
+* place your spec and helper files in `spec` folder. If neccessary amend `jasmine.json`
