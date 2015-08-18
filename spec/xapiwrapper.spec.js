@@ -1,5 +1,11 @@
+"use strict"
+
 /**
  * Testing ADL.XAPIWrapper
+ */
+
+/**
+ * Test-wide settings
  */
 
 var defaults = {};
@@ -15,5 +21,5 @@ describe('ADL.XAPIWrapper', function() {
     it('ADL.XAPIWrapper.base should be a uri (/http/).', function() {
         expect(ADL.XAPIWrapper.base).toMatch(/http/);
     });
-
+    
 });
