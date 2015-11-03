@@ -1,7 +1,8 @@
 "use strict"
 
-/**
- * Testing ADL.XAPIWrapper
+/*
+ * Example Test,
+ * just testing ADL.XAPIWrapper
  */
 
 /**
