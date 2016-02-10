@@ -12,7 +12,7 @@ Jasmine >= 2.0
 xAPIWrapper is a browser based library. It namespaces into the window object and uses XMLHttpRequest API. Two great node mdules herlp you to simulate these (more or less) in the terminal:
 
  * [jsdom](https://github.com/tmpvar/jsdom), @see [howto](https://github.com/tmpvar/jsdom#creating-a-browser-like-window-object)
- * [node-XMLHttpRequest] https://github.com/driverdan/node-XMLHttpRequest
+ * [node-XMLHttpRequest](https://github.com/driverdan/node-XMLHttpRequest)
 
 Note: Jsdom needs to be <4.0 (dropped node.js support in favour of io.js in later versions)
 
